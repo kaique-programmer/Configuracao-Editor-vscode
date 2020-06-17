@@ -1,0 +1,28 @@
+{
+  "editor.fontFamily": "Fira Code", // Fonte Fira-code utilizada no ambiente do editor de texto
+  "editor.fontLigatures": true, // Aciona os elementos da font Fira-code para mostrar caracteres especiais
+  "editor.fontSize": 14, // Tamanho da fonte do editor de texto
+  "editor.tabSize": 2, // Aplica um espaçamento de 2 da esquerda para direita ao pressionar a tecla tab
+  "editor.rulers": [ // Linhas verticais que indicam a ultrapassagem do texto 
+      100,
+      128
+  ],
+  "editor.renderLineHighlight": "gutter", // Aplica um sinal visual na esquerda da linha selecionada
+  "terminal.integrated.fontSize": 14, // Aumenta a fonte do terminal
+  "workbench.iconTheme": "material-icon-theme", // Exibe ícones representativos da tecnologia no arquivo
+  "emmet.includeLanguages": { // Possibilita a criação de elementos HTML em sequência em arquivos .js
+      "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": { // Designa o perfil de sintaxe à ser desenvolvido nas bibliotecas js como: reactjs, react-native 
+      "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never", // Desabilita a opção de importação automática de arquivos
+  "editor.parameterHints.enabled": false, // Desabilita a caixa de dicas que é mostrado quando o mouse é passado por cima do código 
+  "breadcrumbs.enabled": true, // Mostra uma aŕvore de caminhos em linha, na parte superior do editor
+  "javascript.suggest.autoImports": false, // Desabilita sugestões de importações do javascript
+  "terminal.integrated.shell.linux": "/bin/bash", // Modo de exibição
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Dracula", // Tema show de bola 
+  "liveServer.settings.donotShowInfoMsg": true, // Abre o arquivo no browser direto pela porta do servidor local 
+  "git.autofetch": true
+}
