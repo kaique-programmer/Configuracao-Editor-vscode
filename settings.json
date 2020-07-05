@@ -7,6 +7,16 @@
       100,
       128
   ],
+  // Permite acionar as configurações do ESlint(padronizador) de código
+  "editor.codeActionsOnSave": { "eslint.autoFixOnSave": true },
+  "editor.formatOnSave": false,
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
   "editor.renderLineHighlight": "gutter", // Aplica um sinal visual na esquerda da linha selecionada
   "terminal.integrated.fontSize": 14, // Aumenta a fonte do terminal
   "workbench.iconTheme": "material-icon-theme", // Exibe ícones representativos da tecnologia no arquivo
